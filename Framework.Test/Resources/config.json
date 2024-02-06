@@ -1,0 +1,19 @@
+{
+  "Core": {
+    "ApplicationUrl": "https://magento.softwaretestingboard.com/customer/account/login",
+    "BrowserType": "chrome",
+    "AcceptInsecureCertificates": true,
+    "Headless": false,
+    "Environment": "Stage"
+  },
+  "Envirnoment": {
+    "Stage": {
+      "Username": "sabarivivek7@gmail.com",
+      "Password": "Sabari@123"
+    },
+    "QA": {
+      "Username": "sabarivivek7@gmail.com",
+      "Password": "Sabari@123"
+    }
+  }
+}

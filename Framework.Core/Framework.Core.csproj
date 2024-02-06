@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Database\**" />
+	  <EmbeddedResource Remove="Database\**" />
+	  <None Remove="Database\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="7.1.0" />
+		<PackageReference Include="ExtentReports" Version="5.0.2" />
+		<PackageReference Include="Microsoft.Playwright" Version="1.40.0" />
+	</ItemGroup>
+
+</Project>
